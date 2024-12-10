@@ -1,0 +1,9 @@
+print "Let's get learning Lox!";
+
+fun printNThings(n) {
+    for (var i = 0; i < n; i = i + 1) {
+        print "Hello from Lox!";
+    }
+}
+
+printNThings(10);
